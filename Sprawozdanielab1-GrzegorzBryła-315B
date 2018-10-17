@@ -1,0 +1,73 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[MeX]{polski}
+\usepackage[cp1250]{inputenc}
+\usepackage{color}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage{latexsym}
+\usepackage{enumerate}
+\title{\huge Sprawozdanie lab nr 1}
+\frenchspacing
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{formatowanie tekstow} 
+\begin{itemize}
+\huge \item  Czcionki \newline
+\textit{abcabci} \\
+\textup{abcabci} \\
+\large \textbf{abcabc} \\
+\uline{abcabc}\\
+\Huge duze  \newline \\
+\tiny mala \newline \\
+
+
+
+\huge \item  Rozne kolory \newline \large
+
+\textcolor{red}{Tecza}
+\textcolor{yellow}{Tecza}
+\textcolor{black}{Tecza}
+\textcolor{green}{Tecza}
+\textcolor{magenta}{Tecza}
+\end{itemize}
+
+
+\section{formatowanie tabeli}
+
+\begin{center}
+
+\large \item Kontener \newline \\ 
+\begin{tabular}{|p{4.7cm}|} \hline
+\\
+\\
+\\
+\\
+\\
+\\ \hline
+\end{tabular}
+
+\large \item tabela \newline \\
+\begin{tabular}{|r|l|r|} \hline
+1  &  2 & 3 \\ \hline
+4 & 5 & 6   \\ \hline
+7 & 8 & 9 \\
+  &   &    \\
+\hline 
+\end{tabular}
+\end{center}
+
+
+\section{Bibliografia}
+
+\begin{thebibliography}{1}
+
+\url https://pl.wikibooks.org/wiki/LaTeX\\
+\url http://www.latex-kurs.x25.pl/paper/fonty
+ 
+
+\end{thebibliography}
+
+\end{document}
